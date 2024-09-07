@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+html::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 10px;
+}
+/* Header  */
+#navbar {
+  padding: 0px 9% 0px;
+}
+
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+
+.nav-item .nav-link:hover {
+  color: crimson !important;
+}
+
+#btn {
+  padding: 5px;
+  border: 1px solid crimson;
+  background: transparent;
+  color: crimson;
+  border-radius: 5px;
+}
+/* Home */
+.home {
+  width: 100%;
+  height: 100vh;
+  padding: 5px 11% 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home .home-img {
+  flex: 1 1 300px;
+}
+.home .home-img img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.home-content {
+  flex: 1 1 400px;
+}
+
+@media (max-width: 875px) {
+  .home .home-img img {
+    margin-left: unset;
+  }
+}
+
+/* Top  */
+.top-section {
+  padding: 10px 11% 100px;
+}
+
+.top-section .row {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.top-section .row .card img {
+  width: 200px;
+  margin: auto;
+}
+
+/* Menu */
+
+.menu {
+  padding: 10px 11% 100px;
+}
+
+.rating i {
+  color: #f9a503;
+}
+.menu p {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.menu p i {
+  float: right;
+  color: crimson;
+}
+
+/* Çizgi */
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: crimson;
+}
