@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- * Header  -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" id="logo">
           <img src="./images /logo.png" alt="logo" />
@@ -40,27 +40,42 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a
+                class="nav-link text-dark fw-bold"
+                aria-current="page"
+                href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a
+                class="nav-link text-dark fw-bold"
+                aria-current="page"
+                href="#menu"
                 >Menu</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a
+                class="nav-link text-dark fw-bold"
+                aria-current="page"
+                href="#order"
                 >Order</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a
+                class="nav-link text-dark fw-bold"
+                aria-current="page"
+                href="#review"
                 >Reviews</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" aria-current="page" href="#"
+              <a
+                class="nav-link text-dark fw-bold"
+                aria-current="page"
+                href="#contact"
                 >Contact</a
               >
             </li>
@@ -283,6 +298,286 @@
     <div class="container mb-5">
       <div class="line"></div>
     </div>
+    <!-- * Our Menu -->
+    <section class="menu" id="menu">
+      <!-- * başlık -->
+      <h3 class="text-center text-danger fw-bolder">Our Menu</h3>
+      <!-- Satır -->
+      <div class="row">
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img src="./images /Mangalorean_Chicken.png" alt="" />
+            <div class="card-body">
+              <h3>M Chicken</h3>
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>$20 <i class="bi bi-credit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img src="./images /Mangalorean_Chicken.png" alt="" />
+            <div class="card-body">
+              <h3>M Chicken</h3>
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>$20 <i class="bi bi-credit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img src="./images /Mangalorean_Chicken.png" alt="" />
+            <div class="card-body">
+              <h3>M Chicken</h3>
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>$20 <i class="bi bi-credit-card"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img src="./images /Mangalorean_Chicken.png" alt="" />
+            <div class="card-body">
+              <h3>M Chicken</h3>
+              <h6>Lorem ipsum dolor sit amet.</h6>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>$20 <i class="bi bi-credit-card"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * Order Food -->
+    <section class="order" id="order">
+      <!-- Heading -->
+      <div class="heading text-center fs-1 fw-bold">
+        Order Your <span class="text-danger">Food</span>
+      </div>
+      <!-- Row -->
+      <div class="row">
+        <!-- Resim Kısımı -->
+        <div class="col-md-5">
+          <div class="card">
+            <img src="./images /img1.png" alt="" />
+          </div>
+        </div>
+        <!-- * Form Kısımı -->
+        <div class="col-md-7">
+          <form>
+            <div class="mb-3 mt-3 mt-md-0">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="İsminizi giriniz"
+                required
+              />
+              <!-- required ==> Bu alanın zorunlu olduğunu belirtir  -->
+            </div>
+            <div class="mb-3 mt-3 mt-md-0">
+              <input
+                type="email"
+                placeholder="Email adresinizi giriniz"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3 mt-md-0">
+              <input
+                type="tel"
+                placeholder="Telefon numaranızı giriniz"
+                class="form-control h-50"
+                required
+              />
+            </div>
+            <textarea
+              class="form-control"
+              placeholder="Adresinizi giriniz"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="btn btn-danger mt-4">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- * Review  -->
+    <section class="review" id="review">
+      <div class="row">
+        <!-- Resim Kısımı -->
+        <div class="col-md-4 py-5 py-md-0">
+          <div class="card py-3 border border-danger">
+            <img src="./images /review-img.png" alt="" />
+          </div>
+        </div>
+        <!-- Müşteri Kısımı  -->
+        <div class="col-md-8 py-3 py-md-0" id="content">
+          <h3 class="text-danger fs-6">WHAT THEY SAY</h3>
+          <h2 class="fw-bold">What Our Customers Say About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            adipisci nam nihil maxime corporis quas cupiditate eum praesentium
+            id ad.
+          </p>
+          <div class="d-flex gap-5">
+            <div class="customer">
+              <div>
+                <img
+                  src="./images /pic-1.png"
+                  class="rounded-3"
+                  width="60"
+                  alt=""
+                />
+                <a href="#" class="text-decoration-none text-black"
+                  >John Cooper</a
+                >
+              </div>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="customer">
+              <div>
+                <img
+                  src="./images /pic-2.png"
+                  class="rounded-3"
+                  width="60"
+                  alt=""
+                />
+                <a href="#" class="text-decoration-none text-black">Monica</a>
+              </div>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * Contact Us -->
+    <section class="contact" id="contact">
+      <!-- Başlık -->
+      <div class="text-center fs-1 fw-bold mb-4">
+        Contact <span class="text-danger">us</span>
+      </div>
+      <!-- Row -->
+      <div class="row">
+        <!-- Sol Kısım -->
+        <div class="col-md-5 bg-danger rounded-4 p-3 text-white">
+          <h3 class="mt-3">Let's Get In Touch</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            eligendi cumque cum suscipit sit dolorum quibusdam repudiandae saepe
+            impedit minus!
+          </p>
+          <div class="mt-4">
+            <i class="bi bi-telephone-fill"></i>
+            444 444 444
+          </div>
+          <div class="mt-4">
+            <i class="bi bi-envelope-fill"></i>
+            info@gmail.com
+          </div>
+
+          <div class="mt-4">
+            <i class="bi bi-geo-alt-fill"></i>
+            İstanbul
+          </div>
+        </div>
+        <div class="col-md-7 py-3 py-md-0">
+          <form>
+            <!-- İsim -->
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="İsminizi Giriniz"
+                required
+              />
+            </div>
+            <!-- Email  -->
+            <div class="mt-3 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Emailinizi Giriniz"
+                required
+              />
+            </div>
+            <!-- Numara  -->
+            <div class="mt-3 mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Numaranızı Giriniz"
+                required
+              />
+            </div>
+            <!-- Adres -->
+            <textarea
+              class="form-control h-50"
+              rows="5"
+              placeholder="Adresinizi Giriniz"
+              required
+            ></textarea>
+            <button class="btn btn-danger mt-4">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- * Footer -->
+    <footer id="footer">
+      <div class="f-content">
+        <div class="f-logo">
+          <img src="./images /logo.png" alt="" />
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+          corporis!
+        </p>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <br />
+      <div class="c-content">© Copyright 2024</div>
+    </footer>
 
     <!-- * Bootstrap Js -->
     <script

@@ -17,6 +17,11 @@ html::-webkit-scrollbar-thumb {
 #navbar {
   padding: 0px 9% 0px;
 }
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}
 
 #logo img {
   width: 190px;
@@ -101,4 +106,44 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   height: 2px;
   background-color: crimson;
+}
+
+/* Order */
+.order {
+  padding: 100px 11% 100px;
+}
+/* Review */
+.review {
+  padding: 100px 11% 100px;
+}
+/* Contact */
+.contact {
+  padding: 100px 11% 100px;
+}
+
+/* * Footer */
+#footer {
+  padding: 15px 11% 15px;
+}
+.f-content {
+  text-align: center;
+}
+.f-logo img {
+  width: 250px;
+}
+.f-content i {
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.f-content i:hover {
+  background-color: crimson;
+  border-radius: 5px;
+  color: white;
+}
+
+.c-content {
+  text-align: center;
 }
